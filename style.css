@@ -6,7 +6,7 @@
 body {
     margin: 0;
     background-image: url('IMG_3087.jpg');
-    background-size:  cover;
+    background-size:  contain;
     //background-repeat: no-repeat;
 }
 
