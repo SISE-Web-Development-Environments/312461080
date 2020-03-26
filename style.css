@@ -37,12 +37,38 @@ body {
         }
 
 .h1 {
-    color: darkslateblue;
+    //color: darkslateblue;
     font: bolder;
+     text-shadow: 2px 2px 5px white;
+    // color: black;
+    -webkit-text-fill-color: darkslateblue; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: white;
+}
+.h2 {
+    color: gray;
+    -webkit-text-stroke-width: 0.2px;
+   // -webkit-text-stroke-color: white;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 .h3 {
-    color: black;
-    
+    color: white;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
+.h4 {
+    color: #2F4F4F;
+    //-webkit-text-stroke-width: 0.2px;
+    //-webkit-text-stroke-color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.h5 {
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-color: #2F4F4F;
+    background-image: url('IMG_3087.jpg')
 }
 .row {
     display: -ms-flexbox; /* IE10 */
