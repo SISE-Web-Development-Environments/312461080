@@ -4,11 +4,11 @@
 }
 
 body {
-  margin: 0;
+    margin: 0;
     background-image: url('IMG_3087.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:  fixed;
+    background-attachment: fixed;
     //background-repeat: no-repeat;
 }
 
@@ -18,7 +18,6 @@ body {
     position: fixed;
     overflow: hidden;
     // background-color: #FFFACD;
-   
 }
 
     /* Style the topnav links */
@@ -41,37 +40,41 @@ body {
 .h1 {
     //color: darkslateblue;
     font: bolder;
-     text-shadow: 2px 2px 5px white;
+    text-shadow: 2px 2px 5px white;
     // color: black;
     -webkit-text-fill-color: darkslateblue; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: white;
 }
+
 .h2 {
     color: gray;
     -webkit-text-stroke-width: 0.2px;
-   // -webkit-text-stroke-color: white;
+    // -webkit-text-stroke-color: white;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 .h3 {
     color: white;
     -webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: black;
 }
+
 .h4 {
     color: #2F4F4F;
     //-webkit-text-stroke-width: 0.2px;
     //-webkit-text-stroke-color: black;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 .h5 {
-    border-style: dashed;
     border-width: 3px;
     border-left-width: 3px;
     border-right-width: 3px;
     border-color: #2F4F4F;
     background-image: url('IMG_3087.jpg')
 }
+
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -94,6 +97,25 @@ body {
         width: 100%;
     }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #2F4F4F;
+    text-align: center;
+    background-image: url('IMG_3087.jpg');
+}
+
+td {
+    text-align: right;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
     .column {
@@ -111,4 +133,3 @@ body {
         max-width: 100%;
     }
 }
-
