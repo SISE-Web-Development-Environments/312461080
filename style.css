@@ -109,7 +109,8 @@ table, th, td {
     margin-right: auto;
     border: 1px solid #2F4F4F;
     text-align: center;
-    background-image: url('IMG_3087.jpg');
+    //background-image: url('IMG_3087.jpg');
+    background-color: rgba(130, 229, 243, 0.31);
 }
 
 td {
